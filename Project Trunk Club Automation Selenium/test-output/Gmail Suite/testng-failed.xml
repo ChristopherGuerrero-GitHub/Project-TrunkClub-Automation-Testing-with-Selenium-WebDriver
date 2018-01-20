@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]">
+  <test name="ClothingFAQMenuOptions(failed)">
+    <classes>
+      <class name="common.tests.ClothingFAQMenuOptions">
+        <methods>
+          <include name="temp6"/>
+        </methods>
+      </class> <!-- common.tests.ClothingFAQMenuOptions -->
+    </classes>
+  </test> <!-- ClothingFAQMenuOptions(failed) -->
+  <test name="ShippingReturnsFAQMenuOptions(failed)">
+    <classes>
+      <class name="common.tests.ShippingReturnsFAQMenuOptions">
+        <methods>
+          <include name="temp8"/>
+        </methods>
+      </class> <!-- common.tests.ShippingReturnsFAQMenuOptions -->
+    </classes>
+  </test> <!-- ShippingReturnsFAQMenuOptions(failed) -->
+  <test name="OurStylistsSubMenuLinks(failed)">
+    <classes>
+      <class name="common.tests.OurStylistsSubMenuLinks">
+        <methods>
+          <include name="temp13"/>
+        </methods>
+      </class> <!-- common.tests.OurStylistsSubMenuLinks -->
+    </classes>
+  </test> <!-- OurStylistsSubMenuLinks(failed) -->
+  <test name="CustomFAQMenuOptions(failed)">
+    <classes>
+      <class name="common.tests.CustomFAQMenuOptions">
+        <methods>
+          <include name="temp14"/>
+        </methods>
+      </class> <!-- common.tests.CustomFAQMenuOptions -->
+    </classes>
+  </test> <!-- CustomFAQMenuOptions(failed) -->
+  <test name="TrunksFAQMenuOptions(failed)">
+    <classes>
+      <class name="common.tests.TrunksFAQMenuOptions">
+        <methods>
+          <include name="temp16"/>
+        </methods>
+      </class> <!-- common.tests.TrunksFAQMenuOptions -->
+    </classes>
+  </test> <!-- TrunksFAQMenuOptions(failed) -->
+  <test name="FooterMenuOptions(failed)">
+    <classes>
+      <class name="common.tests.FooterMenuOptions">
+        <methods>
+          <include name="temp24"/>
+        </methods>
+      </class> <!-- common.tests.FooterMenuOptions -->
+    </classes>
+  </test> <!-- FooterMenuOptions(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

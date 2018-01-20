@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="23" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail Suite" duration-ms="411716" started-at="2018-01-19T22:03:11Z" finished-at="2018-01-19T22:10:03Z">
+    <groups>
+    </groups>
+    <test name="HeaderMenuOptions" duration-ms="74186" started-at="2018-01-19T22:03:11Z" finished-at="2018-01-19T22:04:25Z">
+      <class name="common.tests.HeaderMenuOptions">
+        <test-method status="PASS" signature="temp()[pri:0, instance:common.tests.HeaderMenuOptions@4520ebad]" name="temp" duration-ms="74155" started-at="2018-01-19T16:03:11Z" finished-at="2018-01-19T16:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp -->
+      </class> <!-- common.tests.HeaderMenuOptions -->
+    </test> <!-- HeaderMenuOptions -->
+    <test name="GeneralFAQMenuOptions" duration-ms="5379" started-at="2018-01-19T22:04:25Z" finished-at="2018-01-19T22:04:31Z">
+      <class name="common.tests.GeneralFAQMenuOptions">
+        <test-method status="PASS" signature="temp2()[pri:0, instance:common.tests.GeneralFAQMenuOptions@4501b7af]" name="temp2" duration-ms="5379" started-at="2018-01-19T16:04:25Z" finished-at="2018-01-19T16:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp2 -->
+      </class> <!-- common.tests.GeneralFAQMenuOptions -->
+    </test> <!-- GeneralFAQMenuOptions -->
+    <test name="GeneralSubMenuOptions" duration-ms="13959" started-at="2018-01-19T22:04:31Z" finished-at="2018-01-19T22:04:45Z">
+      <class name="common.tests.GeneralSubMenuOptions">
+        <test-method status="PASS" signature="temp3()[pri:0, instance:common.tests.GeneralSubMenuOptions@3532ec19]" name="temp3" duration-ms="13959" started-at="2018-01-19T16:04:31Z" finished-at="2018-01-19T16:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp3 -->
+      </class> <!-- common.tests.GeneralSubMenuOptions -->
+    </test> <!-- GeneralSubMenuOptions -->
+    <test name="PricingFAQMenuOptions" duration-ms="11308" started-at="2018-01-19T22:04:45Z" finished-at="2018-01-19T22:04:56Z">
+      <class name="common.tests.PricingFAQMenuOptions">
+        <test-method status="PASS" signature="temp4()[pri:0, instance:common.tests.PricingFAQMenuOptions@66a3ffec]" name="temp4" duration-ms="11307" started-at="2018-01-19T16:04:45Z" finished-at="2018-01-19T16:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp4 -->
+      </class> <!-- common.tests.PricingFAQMenuOptions -->
+    </test> <!-- PricingFAQMenuOptions -->
+    <test name="PricingSubMenuLinks" duration-ms="8834" started-at="2018-01-19T22:04:56Z" finished-at="2018-01-19T22:05:05Z">
+      <class name="common.tests.PricingSubMenuLinks">
+        <test-method status="PASS" signature="temp5()[pri:0, instance:common.tests.PricingSubMenuLinks@91161c7]" name="temp5" duration-ms="8824" started-at="2018-01-19T16:04:56Z" finished-at="2018-01-19T16:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp5 -->
+      </class> <!-- common.tests.PricingSubMenuLinks -->
+    </test> <!-- PricingSubMenuLinks -->
+    <test name="ClothingFAQMenuOptions" duration-ms="16119" started-at="2018-01-19T22:05:05Z" finished-at="2018-01-19T22:05:21Z">
+      <class name="common.tests.ClothingFAQMenuOptions">
+        <test-method status="FAIL" signature="temp6()[pri:0, instance:common.tests.ClothingFAQMenuOptions@5622fdf]" name="temp6" duration-ms="16056" started-at="2018-01-19T16:05:05Z" finished-at="2018-01-19T16:05:21Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836aat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)at common.tests.ClothingFAQMenuOptions.temp6(ClothingFAQMenuOptions.java:86)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp6 -->
+      </class> <!-- common.tests.ClothingFAQMenuOptions -->
+    </test> <!-- ClothingFAQMenuOptions -->
+    <test name="ClothingSubMenuLinks" duration-ms="4201" started-at="2018-01-19T22:05:21Z" finished-at="2018-01-19T22:05:25Z">
+      <class name="common.tests.ClothingSubMenuLinks">
+        <test-method status="PASS" signature="temp7()[pri:0, instance:common.tests.ClothingSubMenuLinks@53b32d7]" name="temp7" duration-ms="4201" started-at="2018-01-19T16:05:21Z" finished-at="2018-01-19T16:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp7 -->
+      </class> <!-- common.tests.ClothingSubMenuLinks -->
+    </test> <!-- ClothingSubMenuLinks -->
+    <test name="ShippingReturnsFAQMenuOptions" duration-ms="8823" started-at="2018-01-19T22:05:25Z" finished-at="2018-01-19T22:05:34Z">
+      <class name="common.tests.ShippingReturnsFAQMenuOptions">
+        <test-method status="FAIL" signature="temp8()[pri:0, instance:common.tests.ShippingReturnsFAQMenuOptions@146ba0ac]" name="temp8" duration-ms="8823" started-at="2018-01-19T16:05:25Z" finished-at="2018-01-19T16:05:34Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836aat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)at common.tests.ShippingReturnsFAQMenuOptions.temp8(ShippingReturnsFAQMenuOptions.java:86)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp8 -->
+      </class> <!-- common.tests.ShippingReturnsFAQMenuOptions -->
+    </test> <!-- ShippingReturnsFAQMenuOptions -->
+    <test name="ShippingReturnsSubMenuLinks" duration-ms="5285" started-at="2018-01-19T22:05:34Z" finished-at="2018-01-19T22:05:40Z">
+      <class name="common.tests.ShippingReturnsSubMenuLinks">
+        <test-method status="PASS" signature="temp9()[pri:0, instance:common.tests.ShippingReturnsSubMenuLinks@57fffcd7]" name="temp9" duration-ms="5274" started-at="2018-01-19T16:05:34Z" finished-at="2018-01-19T16:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp9 -->
+      </class> <!-- common.tests.ShippingReturnsSubMenuLinks -->
+    </test> <!-- ShippingReturnsSubMenuLinks -->
+    <test name="StylingFeeFAQMenuOptions" duration-ms="3089" started-at="2018-01-19T22:05:40Z" finished-at="2018-01-19T22:05:43Z">
+      <class name="common.tests.StylingFeeFAQMenuOptions">
+        <test-method status="PASS" signature="temp10()[pri:0, instance:common.tests.StylingFeeFAQMenuOptions@271053e1]" name="temp10" duration-ms="3089" started-at="2018-01-19T16:05:40Z" finished-at="2018-01-19T16:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp10 -->
+      </class> <!-- common.tests.StylingFeeFAQMenuOptions -->
+    </test> <!-- StylingFeeFAQMenuOptions -->
+    <test name="StylingFeeSubMenuLinks" duration-ms="1439" started-at="2018-01-19T22:05:43Z" finished-at="2018-01-19T22:05:44Z">
+      <class name="common.tests.StylingFeeSubMenuLinks">
+        <test-method status="PASS" signature="temp11()[pri:0, instance:common.tests.StylingFeeSubMenuLinks@3fee9989]" name="temp11" duration-ms="1439" started-at="2018-01-19T16:05:43Z" finished-at="2018-01-19T16:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp11 -->
+      </class> <!-- common.tests.StylingFeeSubMenuLinks -->
+    </test> <!-- StylingFeeSubMenuLinks -->
+    <test name="OurStylistsFAQMenuOptions" duration-ms="3722" started-at="2018-01-19T22:05:44Z" finished-at="2018-01-19T22:05:48Z">
+      <class name="common.tests.OurStylistsFAQMenuOptions">
+        <test-method status="PASS" signature="temp12()[pri:0, instance:common.tests.OurStylistsFAQMenuOptions@5f2108b5]" name="temp12" duration-ms="3722" started-at="2018-01-19T16:05:44Z" finished-at="2018-01-19T16:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp12 -->
+      </class> <!-- common.tests.OurStylistsFAQMenuOptions -->
+    </test> <!-- OurStylistsFAQMenuOptions -->
+    <test name="OurStylistsSubMenuLinks" duration-ms="2250" started-at="2018-01-19T22:05:48Z" finished-at="2018-01-19T22:05:50Z">
+      <class name="common.tests.OurStylistsSubMenuLinks">
+        <test-method status="FAIL" signature="temp13()[pri:0, instance:common.tests.OurStylistsSubMenuLinks@6e06451e]" name="temp13" duration-ms="2250" started-at="2018-01-19T16:05:48Z" finished-at="2018-01-19T16:05:50Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836aat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)at common.tests.OurStylistsSubMenuLinks.temp13(OurStylistsSubMenuLinks.java:74)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp13 -->
+      </class> <!-- common.tests.OurStylistsSubMenuLinks -->
+    </test> <!-- OurStylistsSubMenuLinks -->
+    <test name="CustomFAQMenuOptions" duration-ms="867" started-at="2018-01-19T22:05:50Z" finished-at="2018-01-19T22:05:51Z">
+      <class name="common.tests.CustomFAQMenuOptions">
+        <test-method status="FAIL" signature="temp14()[pri:0, instance:common.tests.CustomFAQMenuOptions@1ed4004b]" name="temp14" duration-ms="867" started-at="2018-01-19T16:05:50Z" finished-at="2018-01-19T16:05:51Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836aat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)at common.tests.CustomFAQMenuOptions.temp14(CustomFAQMenuOptions.java:68)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp14 -->
+      </class> <!-- common.tests.CustomFAQMenuOptions -->
+    </test> <!-- CustomFAQMenuOptions -->
+    <test name="CustomSubMenuLinks" duration-ms="2916" started-at="2018-01-19T22:05:51Z" finished-at="2018-01-19T22:05:54Z">
+      <class name="common.tests.CustomSubMenuLinks">
+        <test-method status="PASS" signature="temp15()[pri:0, instance:common.tests.CustomSubMenuLinks@4bec1f0c]" name="temp15" duration-ms="2916" started-at="2018-01-19T16:05:51Z" finished-at="2018-01-19T16:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp15 -->
+      </class> <!-- common.tests.CustomSubMenuLinks -->
+    </test> <!-- CustomSubMenuLinks -->
+    <test name="TrunksFAQMenuOptions" duration-ms="2920" started-at="2018-01-19T22:05:54Z" finished-at="2018-01-19T22:05:57Z">
+      <class name="common.tests.TrunksFAQMenuOptions">
+        <test-method status="FAIL" signature="temp16()[pri:0, instance:common.tests.TrunksFAQMenuOptions@192b07fd]" name="temp16" duration-ms="2920" started-at="2018-01-19T16:05:54Z" finished-at="2018-01-19T16:05:57Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836aat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)at common.tests.TrunksFAQMenuOptions.temp16(TrunksFAQMenuOptions.java:92)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp16 -->
+      </class> <!-- common.tests.TrunksFAQMenuOptions -->
+    </test> <!-- TrunksFAQMenuOptions -->
+    <test name="TrunksSubMenuLinks" duration-ms="0" started-at="2018-01-19T22:05:57Z" finished-at="2018-01-19T22:05:57Z">
+    </test> <!-- TrunksSubMenuLinks -->
+    <test name="AlterationsFAQMenuOptions" duration-ms="6773" started-at="2018-01-19T22:05:57Z" finished-at="2018-01-19T22:06:04Z">
+      <class name="common.tests.AlterationsFAQMenuOptions">
+        <test-method status="PASS" signature="temp18()[pri:0, instance:common.tests.AlterationsFAQMenuOptions@31610302]" name="temp18" duration-ms="6762" started-at="2018-01-19T16:05:57Z" finished-at="2018-01-19T16:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp18 -->
+      </class> <!-- common.tests.AlterationsFAQMenuOptions -->
+    </test> <!-- AlterationsFAQMenuOptions -->
+    <test name="AlterationsSubMenuLinks" duration-ms="3110" started-at="2018-01-19T22:06:04Z" finished-at="2018-01-19T22:06:07Z">
+      <class name="common.tests.AlterationsSubMenuLinks">
+        <test-method status="PASS" signature="temp19()[pri:0, instance:common.tests.AlterationsSubMenuLinks@5ce81285]" name="temp19" duration-ms="3110" started-at="2018-01-19T16:06:04Z" finished-at="2018-01-19T16:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp19 -->
+      </class> <!-- common.tests.AlterationsSubMenuLinks -->
+    </test> <!-- AlterationsSubMenuLinks -->
+    <test name="LocationsFAQMenuOptions" duration-ms="4743" started-at="2018-01-19T22:06:07Z" finished-at="2018-01-19T22:06:12Z">
+      <class name="common.tests.LocationsFAQMenuOptions">
+        <test-method status="PASS" signature="temp20()[pri:0, instance:common.tests.LocationsFAQMenuOptions@6fc6f14e]" name="temp20" duration-ms="4692" started-at="2018-01-19T16:06:07Z" finished-at="2018-01-19T16:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp20 -->
+      </class> <!-- common.tests.LocationsFAQMenuOptions -->
+    </test> <!-- LocationsFAQMenuOptions -->
+    <test name="LocationsSubMenuLinks" duration-ms="5404" started-at="2018-01-19T22:06:12Z" finished-at="2018-01-19T22:06:17Z">
+      <class name="common.tests.LocationsSubMenuLinks">
+        <test-method status="PASS" signature="temp21()[pri:0, instance:common.tests.LocationsSubMenuLinks@13a5fe33]" name="temp21" duration-ms="5388" started-at="2018-01-19T16:06:12Z" finished-at="2018-01-19T16:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp21 -->
+      </class> <!-- common.tests.LocationsSubMenuLinks -->
+    </test> <!-- LocationsSubMenuLinks -->
+    <test name="GiftingFAQMenuOptions" duration-ms="13599" started-at="2018-01-19T22:06:18Z" finished-at="2018-01-19T22:06:31Z">
+      <class name="common.tests.GiftingFAQMenuOptions">
+        <test-method status="PASS" signature="temp22()[pri:0, instance:common.tests.GiftingFAQMenuOptions@18eed359]" name="temp22" duration-ms="13599" started-at="2018-01-19T16:06:18Z" finished-at="2018-01-19T16:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp22 -->
+      </class> <!-- common.tests.GiftingFAQMenuOptions -->
+    </test> <!-- GiftingFAQMenuOptions -->
+    <test name="GiftingSubMenuLinks" duration-ms="93521" started-at="2018-01-19T22:06:31Z" finished-at="2018-01-19T22:08:05Z">
+      <class name="common.tests.GiftingSubMenuLinks">
+        <test-method status="PASS" signature="temp23()[pri:0, instance:common.tests.GiftingSubMenuLinks@eec5a4a]" name="temp23" duration-ms="93521" started-at="2018-01-19T16:06:31Z" finished-at="2018-01-19T16:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp23 -->
+      </class> <!-- common.tests.GiftingSubMenuLinks -->
+    </test> <!-- GiftingSubMenuLinks -->
+    <test name="FooterMenuOptions" duration-ms="117655" started-at="2018-01-19T22:08:05Z" finished-at="2018-01-19T22:10:03Z">
+      <class name="common.tests.FooterMenuOptions">
+        <test-method status="FAIL" signature="temp24()[pri:0, instance:common.tests.FooterMenuOptions@369f73a2]" name="temp24" duration-ms="117655" started-at="2018-01-19T16:08:05Z" finished-at="2018-01-19T16:10:03Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given css selector expression "a[title=&quot;Visit Our Facebook&quot;] &gt; svg.social-logo &gt; path" is invalid: InvalidSelectorError: 'a[title=&quot;Visit Our Facebook&quot;] &gt; svg.social-logo &gt; path' is not a valid selector: "a[title=&quot;Visit Our Facebook&quot;] &gt; svg.social-logo &gt; path"For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836a*** Element info: {Using=css selector, value=a[title=&quot;Visit Our Facebook&quot;] &gt; svg.social-logo &gt; path}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given css selector expression "a[title=&quot;Visit Our Facebook&quot;] &gt; svg.social-logo &gt; path" is invalid: InvalidSelectorError: 'a[title=&quot;Visit Our Facebook&quot;] &gt; svg.social-logo &gt; path' is not a valid selector: "a[title=&quot;Visit Our Facebook&quot;] &gt; svg.social-logo &gt; path"For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'System info: host: 'CHRIS', ip: '192.168.1.73', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7696, moz:profile: C:\Users\Christopher\AppDat..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: d84ccc1f-ea13-45f6-abe7-63b8497d836a*** Element info: {Using=css selector, value=a[title=&quot;Visit Our Facebook&quot;] &gt; svg.social-logo &gt; path}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)at common.pageobjects.FAQPage.getfooterFaceBookPage(FAQPage.java:384)at common.tests.FooterMenuOptions.temp24(FooterMenuOptions.java:124)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp24 -->
+      </class> <!-- common.tests.FooterMenuOptions -->
+    </test> <!-- FooterMenuOptions -->
+  </suite> <!-- Gmail Suite -->
+</testng-results>

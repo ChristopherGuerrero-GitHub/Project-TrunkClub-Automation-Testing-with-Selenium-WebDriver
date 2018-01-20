@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests">
+         
+  <test name="HeaderMenuOptions">
+	 <classes>
+	   <class name="common.tests.HeaderMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="GeneralFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.GeneralFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="GeneralSubMenuOptions">
+	 <classes>
+	   <class name="common.tests.GeneralSubMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="PricingFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.PricingFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="PricingSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.PricingSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="ClothingFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.ClothingFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="ClothingSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.ClothingSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="ShippingReturnsFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.ShippingReturnsFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="ShippingReturnsSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.ShippingReturnsSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="StylingFeeFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.StylingFeeFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="StylingFeeSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.StylingFeeSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="OurStylistsFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.OurStylistsFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="OurStylistsSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.OurStylistsSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="CustomFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.CustomFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="CustomSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.CustomSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="TrunksFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.TrunksFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="TrunksSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.TrunksSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="AlterationsFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.AlterationsFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="AlterationsSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.AlterationsSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="LocationsFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.LocationsFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="LocationsSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.LocationsSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="GiftingFAQMenuOptions">
+	 <classes>
+	   <class name="common.tests.GiftingFAQMenuOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="GiftingSubMenuLinks">
+	 <classes>
+	   <class name="common.tests.GiftingSubMenuLinks"/>
+	 </classes>
+   </test>
+   
+   <test name="FooterMenuOptions">
+	 <classes>
+	   <class name="common.tests.FooterMenuOptions"/>
+	 </classes>
+   </test>
+  
+   
+  </suite> 
